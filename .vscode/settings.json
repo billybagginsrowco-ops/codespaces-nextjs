@@ -1,3 +1,13 @@
 {
-    "workbench.browser.openLocalhostLinks": true
+    "workbench.browser.openLocalhostLinks": true,
+    "python.testing.pytestArgs": [
+        "node_modules"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "terminal.integrated.suggest.suggestOnTriggerCharacters": true,
+    "terminal.integrated.suggest.providers": {
+        "lsp": true
+    },
+    "terminal.integrated.shellIntegration.environmentReporting": true
 }
